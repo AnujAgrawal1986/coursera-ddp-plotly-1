@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# Coursera Developing Data Products Week 3 Peer-graded Assignment: Plotly
 
-You can use the [editor on GitHub](https://github.com/idofabu/coursera-ddp-plotly/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In this project, we created a web page presentation using R Markdown that features a plot created with Plotly, representing the number of road accidents in Great Britain from 2005 to 2015, grouped by severity (slight, serious, or fatal).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The presentation is [published online on GitHub Pages](http://spujadas.github.io/coursera-ddp-plotly/road-accidents-gb-2005-2015).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/idofabu/coursera-ddp-plotly/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The source data sets are not included in this repository. To reproduce this presentation, you will need to download the zipped [All STATS19 data (accident, casualties and vehicle tables) for 2005 to 2014](https://data.gov.uk/dataset/road-accidents-safety-data/resource/8ecee6ac-33fd-4f5b-8973-e900cc65d24a) and [Road Safety - Accidents 2015](https://data.gov.uk/dataset/road-accidents-safety-data/resource/ceb00cff-443d-4d43-b17a-ee13437e9564) data sets, and then extract the `Accidents0514.csv` and `Accidents_2015.csv` files from these zip files in a subdirectory named `data`.
